@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "e5e1d3fa-342d-4dd1-81b2-c671e56471cc",
+		"name": "BD4NRG NECTAWARE Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "2 axis production",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000?mode=2x-production&plant=CW1001&timestamp=2021-01-01T14:00:00%2B00:00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"query": [
+						{
+							"key": "mode",
+							"value": "2x-production"
+						},
+						{
+							"key": "plant",
+							"value": "CW1001"
+						},
+						{
+							"key": "timestamp",
+							"value": "2021-01-01T14:00:00%2B00:00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "production",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000?mode=2x-production&plant=CW1001&timestamp=2021-01-01T14:00:00%2B00:00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"query": [
+						{
+							"key": "mode",
+							"value": "2x-production"
+						},
+						{
+							"key": "plant",
+							"value": "CW1001"
+						},
+						{
+							"key": "timestamp",
+							"value": "2021-01-01T14:00:00%2B00:00"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "irradiation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000?mode=2x-production&plant=CW1001&timestamp=2021-01-01T14:00:00%2B00:00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"query": [
+						{
+							"key": "mode",
+							"value": "2x-production"
+						},
+						{
+							"key": "plant",
+							"value": "CW1001"
+						},
+						{
+							"key": "timestamp",
+							"value": "2021-01-01T14:00:00%2B00:00"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
